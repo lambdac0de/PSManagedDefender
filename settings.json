@@ -1,0 +1,17 @@
+{
+    "server" : "",
+    "db": "",
+    "table" : {
+        "am" : "dbo.v_AM_NormalizedDetectionHistory",
+        "amhealth_table" : "dbo.v_GS_AntimalwareHealthStatus",
+        "amdeployment" : "dbo.v_GS_EPDeploymentState",
+        "amtopthreats" : "dbo.v_TopThreatsDetected",
+        "amthreatcategories" : "dbo.v_ThreatCategories",
+        "amthreatcatalog" : "dbo.v_ThreatCatalog",
+        "amthreatseverity"_: "dbo.v_ThreatSeverities",
+        "amthreatsummary" : "dbo.v_ThreatSummary",
+        "system" : "dbo.v_GS_SYSTEM"
+    },
+    "offset" : 0,
+    "time_field" : "Timestamp"
+}
