@@ -9,7 +9,10 @@ This is a PowerShell module for managing Windows Defender deployed though System
 
 ### Usage
 ```powershell
-# Make sure 'settings.json' has been filled-in with proper values first!
+<#
+  Make sure 'settings.json' has been filled-in with proper values first!
+  Particularly the 'server' and 'db' fields, which corresponds to the System Center (Config Manager) SQL instance and database, respectively.
+#>
 Import-Module PSManagedDefender
 Get-Command -Module PSManagedDefender # To see all available commands from this module
 ```
